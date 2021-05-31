@@ -29,7 +29,7 @@ class Application(tk.Frame):
         self.scale.pack()
 
     # hello worldを出力する関数
-    def helloWorld(self):
+    def helloWorld(self, value):
         print('hello world')
 
 # Tkinter初学者参考 : https://docs.python.org/ja/3/library/tkinter.html#a-simple-hello-world-program
