@@ -21,7 +21,8 @@ class Application(tk.Frame):
 
         # frame Widget(Frame)を親要素として、scale Widgetを作成する。
         # from_ : 入力できる数字の下限を設定する。初期値とされる。
-        self.scale = tk.Scale(frame, from_=10)
+        # orient : scale Widgetを水平方向に変更する。
+        self.scale = tk.Scale(frame, from_=10, orient=tk.HORIZONTAL)
 
         # frame Widget(Frame)を親要素とした場合に、scale Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
