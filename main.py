@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 class Application(tk.Frame):
-    # scaleに関する情報を格納する関数
+    # scaleに関する情報を格納する変数
     scale = None
 
     def __init__(self, master=None):
