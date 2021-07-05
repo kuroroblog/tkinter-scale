@@ -31,7 +31,7 @@ class Application(tk.Frame):
         self.scale.pack()
 
     # hello worldを出力する関数
-    def helloWorld(self):
+    def helloWorld(self, value):
         print('hello world')
 
 
